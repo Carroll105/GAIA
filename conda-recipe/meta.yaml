@@ -1,0 +1,41 @@
+package:
+  name: gaia
+  version: "0.1.0"
+
+source:
+  git_url: git@github.com:Carroll105/GAIA.git
+  git_tag: v0.1.0
+
+build:
+  noarch: python
+  script: |
+    python -m pip install . 
+    python -m pip install scanpy==1.9.2 geomstats==2.5.0  
+
+requirements:
+  host:
+    - python >=3.8
+    - pip
+  run:
+    - python >=3.8
+    - numpy >=1.24.3
+    - pandas >=1.3.5
+    - scikit-learn >=1.2.2
+    # - scanpy >=1.9.2
+    # - geomstats >=2.5.0
+
+test:
+  imports:
+    - gaia  
+
+about:
+  home: https://github.com/Carroll105/GAIA
+  license: MIT
+  summary: "GAIA: Geometric Analysis for scRNA-seq"
+  description: |
+    GAIA provides tools for geometric analysis and visualization
+    of single-cell RNA-seq data using spherical embeddings and PCA.
+
+extra:
+  recipe-maintainers:
+    - Carroll105
