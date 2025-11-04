@@ -23,7 +23,7 @@ conda install -c conda-forge scanpy=1.9.2 pandas=1.3.5 numpy=1.24.3 scikit-learn
 ```bash
 conda install -c steven_cai gaia
 ```
-GAIA automatically installs required dependencies:
+GAIA installs required dependencies:
 
 - scanpy
 - numpy
