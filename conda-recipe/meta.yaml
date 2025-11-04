@@ -10,7 +10,7 @@ build:
   noarch: python
   script: |
     python -m pip install . 
-    python -m pip install scanpy==1.9.2 geomstats==2.5.0  
+    # python -m pip install scanpy==1.9.2 geomstats==2.5.0  
 
 requirements:
   host:
