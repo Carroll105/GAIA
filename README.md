@@ -15,6 +15,7 @@ It is recommended to create a dedicated Conda environment:
 ```bash
 conda create -n gaia_env python=3.8.11
 conda activate gaia_env
+pip install scanpy==1.9.2 geomstats==2.5.0
 ```
 
 ## Install GAIA
