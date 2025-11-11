@@ -3,7 +3,7 @@
 GAIA (Geometric Analysis for scRNA-seq) is a tool for geometric analysis of single-cell RNA-seq data.  
 It is based on **spherical embedding** and **principal component analysis (PCA)**, allowing researchers to explore the geometric structure and principal components of gene expression data.
 
-![GAIA workflow](figure/Figure_intro.PNG)  
+![GAIA workflow](figure/Figure_intro.png)  
 *Illustration: GAIA workflow from data input to geometric analysis and visualization.*
 
 ---
